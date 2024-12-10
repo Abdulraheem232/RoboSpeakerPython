@@ -16,8 +16,7 @@ def showtextaudio():
 
 container = Frame(window)
 container.pack(expand=True)
-myimage = PhotoImage(file="favicon.png" ,width=20 , height=20)
-intro = Label(container , text="A robo speaker 1.1 made by abdulraheem", font=("Sans Serif" , 20 , "bold") ,image=myimage , compound="right" )
+intro = Label(container , text="A robo speaker 1.1 made by abdulraheem", font=("Sans Serif" , 20 , "bold"), compound="right" )
 textinput  = Text(container, padx="20px" , pady="10px" , font=("Sans serif" , 15 , "bold"))
 buttoncontainer = Frame(container)
 submitbutton = Button(buttoncontainer,text="Listen Audio" , background="green" , fg="white" , activebackground="green" ,  activeforeground="white" , borderwidth=0 , font=("Sans Serif" , 13 , "bold") , padx="7px" , pady="7px" , command=addvoiceaudio)
