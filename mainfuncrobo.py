@@ -10,7 +10,6 @@ from gtts import gTTS
 #print("-------------------------------------------")
 def main(choice):
         emit = pyttsx3.init()
-        emit.setProperty('voice', voices[0].id)
         emit.say(choice)
         emit.runAndWait()
 
